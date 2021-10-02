@@ -3,6 +3,9 @@ name = "brainfuck-lvl1"
 version = "0.1.0"
 description = "Brainfuck games"
 authors = ["Your Name <you@example.com>"]
+packages = [
+    { include = "brainfuck_games" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
