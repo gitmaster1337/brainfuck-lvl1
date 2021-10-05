@@ -1,11 +1,15 @@
 #!/usr/bin/env python
-import brainfuck_games.cli
+"""brainfuck-games script."""
+
+
+from brainfuck_games import cli
 
 
 def main():
-    print("Welcome to Brainfuck Games!")
-    brainfuck_games.cli.welcome_user()
+    """Run brainfuck-games script."""
+    print('Welcome to Brainfuck Games!')
+    cli.welcome_user()
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

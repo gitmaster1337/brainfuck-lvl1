@@ -1,0 +1,1 @@
+"""Brainfuck Games project."""
