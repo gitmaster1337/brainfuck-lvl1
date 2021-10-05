@@ -1,6 +1,9 @@
 install:
 	poetry install
 
+lint:
+	poetry run flake8 brainfuck_games
+
 build:
 	-rm ./dist/*
 	poetry build
