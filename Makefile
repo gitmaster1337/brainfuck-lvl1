@@ -2,6 +2,7 @@ install:
 	poetry install
 
 build:
+	-rm ./dist/*
 	poetry build
 
 publish:
@@ -9,7 +10,6 @@ publish:
 
 package-install:
 	python3 -m pip install --user dist/*.whl
-
 brainfuck-games:
 	poetry run brainfuck-games
 
