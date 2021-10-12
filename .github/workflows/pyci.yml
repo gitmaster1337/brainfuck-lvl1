@@ -1,0 +1,27 @@
+name: Python CI
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8, 3.9]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      # install poetry and initialize package
+      - name: Install dependencies
+        run: |
+        python -m pip install poetry
+        make install
+      # run flake8 linter
+      - name: Run flake8
+        run: |
+        make lint
