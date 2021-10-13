@@ -5,7 +5,7 @@ lint:
 	poetry run flake8 brainfuck_games
 
 build:
-	-@rm ./dist/*
+	-@rm ./dist/* 2> /dev/null
 	poetry build
 
 publish:
