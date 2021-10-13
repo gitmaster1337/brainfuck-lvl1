@@ -5,13 +5,13 @@ lint:
 	poetry run flake8 brainfuck_games
 
 build:
-	-rm ./dist/*
+	-@rm ./dist/*
 	poetry build
 
 publish:
 	poetry publish --dry-run
 
-package-install:
+package-install: install build
 	python3 -m pip install --user dist/*.whl
 
 brainfuck-games:
@@ -20,4 +20,4 @@ brainfuck-games:
 brainfuck-even:
 	poetry run brainfuck-even
 
-.PHONY: install
+.PHONY: install lint build publish
