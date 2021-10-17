@@ -8,3 +8,6 @@
 ## Playing Brainfuck Games
 ### Brainfuck Even
 [![asciicast](https://asciinema.org/a/cHf91ti5v951JL8r7M7wx2Sts.svg)](https://asciinema.org/a/cHf91ti5v951JL8r7M7wx2Sts)
+
+### Brainfuck Calc
+[![asciicast](https://asciinema.org/a/XbHvyrNuafHxarxwFVe03nLHQ.svg)](https://asciinema.org/a/XbHvyrNuafHxarxwFVe03nLHQ)
