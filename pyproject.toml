@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "brainfuck-lvl1"
-version = "0.5.0"
+version = "0.6.0"
 description = "Brainfuck games"
 authors = ["Your Name <you@example.com>"]
 packages = [
