@@ -20,4 +20,7 @@ brainfuck-games:
 brainfuck-even:
 	poetry run brainfuck-even
 
+brainfuck-calc:
+	poetry run brainfuck-calc
+
 .PHONY: install lint build publish

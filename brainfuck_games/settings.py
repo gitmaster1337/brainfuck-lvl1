@@ -7,3 +7,4 @@ ROUNDS_TO_WIN = 3
 
 # Game Descriptions
 DESCR_BRAIN_EVEN = 'Answer "yes" if the number is even, otherwise answer "no".'
+DESCR_BRAIN_CALC = 'What is the result of the expression?'
