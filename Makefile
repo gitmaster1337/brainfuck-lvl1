@@ -23,4 +23,7 @@ brainfuck-even:
 brainfuck-calc:
 	poetry run brainfuck-calc
 
+brainfuck-gcd:
+	poetry run brainfuck-gcd
+
 .PHONY: install lint build publish
