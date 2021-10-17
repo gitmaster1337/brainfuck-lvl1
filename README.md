@@ -11,3 +11,6 @@
 
 ### Brainfuck Calc
 [![asciicast](https://asciinema.org/a/XbHvyrNuafHxarxwFVe03nLHQ.svg)](https://asciinema.org/a/XbHvyrNuafHxarxwFVe03nLHQ)
+
+### Brainfuck GCD
+[![asciicast](https://asciinema.org/a/Tnd412ru1uAyVQsnlmGLRTRSH.svg)](https://asciinema.org/a/Tnd412ru1uAyVQsnlmGLRTRSH)
