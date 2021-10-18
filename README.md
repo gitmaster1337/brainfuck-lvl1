@@ -14,3 +14,6 @@
 
 ### Brainfuck GCD
 [![asciicast](https://asciinema.org/a/Tnd412ru1uAyVQsnlmGLRTRSH.svg)](https://asciinema.org/a/Tnd412ru1uAyVQsnlmGLRTRSH)
+
+### Brainfuck Progression
+[![asciicast](https://asciinema.org/a/pJiWXgY0EzaAojad3tcnJKUAP.svg)](https://asciinema.org/a/pJiWXgY0EzaAojad3tcnJKUAP)
