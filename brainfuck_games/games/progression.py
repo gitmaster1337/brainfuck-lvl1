@@ -3,7 +3,13 @@
 
 from random import randint
 
-from brainfuck_games import settings
+from brainfuck_games.settings import (
+    MAX_LEN,
+    MAX_NUM,
+    MAX_STEP,
+    MIN_LEN,
+    MIN_NUM,
+)
 
 
 def ask_question():
@@ -13,17 +19,16 @@ def ask_question():
         question: Arithmetic progression string with a missing number
         answer: Correct answer (number missing from progression)
     """
-    progr_len = randint(settings.MIN_LEN, settings.MAX_LEN)
-    step = randint(1, settings.MAX_STEP)
-    first = randint(settings.MIN_NUM, settings.MAX_NUM)
-    missed_num_i = randint(0, progr_len)
+    progr_len = randint(MIN_LEN, MAX_LEN)
+    step = randint(1, MAX_STEP)
+    first = randint(MIN_NUM, MAX_NUM)
+    answer_index = randint(0, progr_len)
     question = ''
     answer = str(first)
-    for i in range(0, progr_len + 1):
-        if (i == missed_num_i):
-            current_num = '..'
-            answer = str(first + (i * step))
+    for index in range(0, progr_len + 1):
+        if (index == answer_index):
+            question += '{0} '.format('..')
+            answer = str(first + (index * step))
         else:
-            current_num = first + (i * step)
-        question = question + str(current_num) + ' '
+            question += '{0} '.format(str(first + (index * step)))
     return question, answer
