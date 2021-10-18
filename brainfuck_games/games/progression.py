@@ -19,7 +19,7 @@ def ask_question():
     missed_num_i = randint(0, progr_len)
     question = ''
     answer = str(first)
-    for i in range(0, progr_len):
+    for i in range(0, progr_len + 1):
         if (i == missed_num_i):
             current_num = '..'
             answer = str(first + (i * step))
