@@ -8,7 +8,7 @@ from brainfuck_games.games import calc
 
 def main():
     """Run Brainfuck Calc game."""
-    engine.run_game(settings.DESCR_BRAIN_CALC, calc.ask_question)
+    engine.run_game(settings.DESCR_CALC, calc.ask_question)
 
 
 if __name__ == '__main__':

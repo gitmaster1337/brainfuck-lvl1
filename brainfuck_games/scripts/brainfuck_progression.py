@@ -8,7 +8,7 @@ from brainfuck_games.games import progression
 
 def main():
     """Run Brainfuck Progression game."""
-    engine.run_game(settings.DESCR_BRAIN_PROGRESSION, progression.ask_question)
+    engine.run_game(settings.DESCR_PROGRESSION, progression.ask_question)
 
 
 if __name__ == '__main__':

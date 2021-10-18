@@ -8,7 +8,7 @@ from brainfuck_games.games import even
 
 def main():
     """Run Brainfuck Even game."""
-    engine.run_game(settings.DESCR_BRAIN_EVEN, even.ask_question)
+    engine.run_game(settings.DESCR_EVEN, even.ask_question)
 
 
 if __name__ == '__main__':
