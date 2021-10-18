@@ -17,3 +17,6 @@
 
 ### Brainfuck Progression
 [![asciicast](https://asciinema.org/a/pJiWXgY0EzaAojad3tcnJKUAP.svg)](https://asciinema.org/a/pJiWXgY0EzaAojad3tcnJKUAP)
+
+### Brainfuck Prime
+[![asciicast](https://asciinema.org/a/lxqmdQ5WaRKkqUIM8XXkN4ITQ.svg)](https://asciinema.org/a/lxqmdQ5WaRKkqUIM8XXkN4ITQ)
