@@ -29,4 +29,7 @@ brainfuck-gcd:
 brainfuck-progression:
 	poetry run brainfuck-progression
 
+brainfuck-prime:
+	poetry run brainfuck-prime
+
 .PHONY: install lint build publish
