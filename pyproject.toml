@@ -19,6 +19,7 @@ brainfuck-games = "brainfuck_games.scripts.brainfuck_games:main"
 brainfuck-even = "brainfuck_games.scripts.brainfuck_even:main"
 brainfuck-calc = "brainfuck_games.scripts.brainfuck_calc:main"
 brainfuck-gcd = "brainfuck_games.scripts.brainfuck_gcd:main"
+brainfuck-progression = "brainfuck_games.scripts.brainfuck_progression:main"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

@@ -26,4 +26,7 @@ brainfuck-calc:
 brainfuck-gcd:
 	poetry run brainfuck-gcd
 
+brainfuck-progression:
+	poetry run brainfuck-progression
+
 .PHONY: install lint build publish
