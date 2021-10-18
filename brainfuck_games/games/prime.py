@@ -16,7 +16,7 @@ def is_prime(num):
         True: if number is prime
         False: if number is not prime
     """
-    if num <=1:
+    if num <= 1:
         return False
     if num > 2:
         for i in range(2, num):
